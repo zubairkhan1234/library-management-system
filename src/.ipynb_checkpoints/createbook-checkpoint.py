@@ -1,3 +1,5 @@
+from src.createuser import UserModule
+users = UserModule()
 class libraryModule:
 
     def __init__(self, allBooks):
@@ -58,4 +60,5 @@ class libraryModule:
             return all_available_books
         else:
             print('currently not available book')
-    # def borrow_a_book(self):
+    def borrow_a_book(self):
+        print(users.get_users())

@@ -1,0 +1,11 @@
+[
+  {
+    "name": "Zubair",
+    "email": "zubair@test.com",
+    "password": "123",
+    "address": "Karachi",
+    "country": "Pakistan",
+    "city": "Karachi",
+    "cnic": "12345-6789012-3"
+  }
+]

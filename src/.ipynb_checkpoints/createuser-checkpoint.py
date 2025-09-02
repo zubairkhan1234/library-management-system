@@ -1,6 +1,8 @@
 class UserModule:
     
-    def __init__(self, allusers):
+    def __init__(self, allusers=None):
+        if allusers is None:
+            allusers = []
         self.users = allusers
         self._login_user = None
     def create_user(self):
